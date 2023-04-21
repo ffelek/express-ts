@@ -52,7 +52,7 @@ VALUES ('Razer Naga Trinity',
         'Ordinateur portable avec écran Retina 15,4" - Processeur Intel Core i7 quadricœur à 2,5 GHz - Mémoire 16Go - Stockage SSD 512Go - WiFi - Bluetooth - Lecteur de cartes SD - Port HDMI - 2 ports Thunderbolt 2 - Jusqu\'à 8h d\'autonomie - Mac OS X Maverick',
         1, 1499.99);
 
-INSERT INTO User (id_permission, user_name, password, modification_date)
-VALUES (1, 'admin', '$2b$10$afRlx8Ao19st0We/8/FR6ONSQDYsFpTebqhZ.lDGfGiGPrvvrr1Gi', NOW()),
-       (2, 'test', '$2b$10$scwLnDny150hvz5ojUqqe.v7PcPq/7r3eMyuAmLUzZ6SGoaDCMLOe', NOW()),
-       (3, 'mod', '$2b$10$11wOc9V0YSXTEDu0pLPmVej2679jfTGGBfJbpIWeAXka0WV/emnw6', NOW());
+INSERT INTO User (id_permission, user_name, password, modification_date, active)
+VALUES (1, 'admin', '$2b$10$afRlx8Ao19st0We/8/FR6ONSQDYsFpTebqhZ.lDGfGiGPrvvrr1Gi', NOW(), true),
+       (2, 'test', '$2b$10$scwLnDny150hvz5ojUqqe.v7PcPq/7r3eMyuAmLUzZ6SGoaDCMLOe', NOW(), true),
+       (3, 'mod', '$2b$10$11wOc9V0YSXTEDu0pLPmVej2679jfTGGBfJbpIWeAXka0WV/emnw6', NOW(), true);
